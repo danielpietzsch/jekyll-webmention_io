@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors       = ["Aaron Gustafson"]
   s.email         = ["aaron@easy-designs.net"]
   s.homepage      = "https://github.com/aarongustafson/jekyll-webmention_io"
-  
+
   s.summary       = "A Jekyll plugin for sending & receiving webmentions via Webmention.io."
   s.description   = <<-EOF
 This Gem includes a suite of tools for managing webmentions in Jekyll:
@@ -38,7 +38,7 @@ EOF
   s.files         = `git ls-files app lib`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency "jekyll", ">= 3.2.0", "< 4.0"
+  s.add_runtime_dependency "jekyll", ">= 3.2.0", "< 5.0"
   s.add_runtime_dependency "json", "~> 2.0"
   s.add_runtime_dependency "openssl", "~> 2.0"
   s.add_runtime_dependency "string_inflection", "~> 0.1"
